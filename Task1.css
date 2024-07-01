@@ -1,0 +1,37 @@
+html{
+  font-size: 70%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  overflow-x: hidden;
+}
+
+header{
+  position: fixed;
+  top:50px; left: 60px; right: 60px;;
+  background:#fff;
+  padding:2rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0 .5rem 1rem #fff);
+  height: 60px;
+  border-radius: 30px;
+}
+
+
+header .navbar a{
+  font-size: 35px;
+  margin-right: 40px;
+  padding:0 1.5rem;
+  color:#000000;
+  background-color: #ffffff;
+}
+
+header .navbar a:hover{
+  color:orange;
+  transition: 500ms;
+  scale: 110%;
+  overflow: hidden;
+}
+
